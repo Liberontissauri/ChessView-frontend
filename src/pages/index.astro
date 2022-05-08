@@ -1,0 +1,27 @@
+---
+// Style Imports
+import '../styles/global.css';
+import '../styles/animations.css';
+import '../styles/home.css';
+
+import Hero from "../components/Hero/Hero.jsx"
+import Info from "../components/Info/Info.jsx"
+
+let title = 'My Astro Site';
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{title}</title>
+
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+<body>
+    <Hero></Hero>
+	<Info></Info>
+</body>
+</html>

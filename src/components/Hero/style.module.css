@@ -1,0 +1,32 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100vh;
+
+    background-color: #34363D;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30%;
+}
+.knightIcon {
+    width: 45px;
+    height: 45px;
+}
+.title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.subtitle {
+    color: #A5A9C0;
+    font-weight: 300;
+    font-size: 1.38rem;
+}
